@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
- --primary-color:#FEAF00;
- --white:#FFFFFF;
- --font:10px;
- 
+  --primary-color: #feaf00;
+  --white: #ffffff;
+  --font: 10px;
+  --auth-background:linear-gradient(80deg,var(--primary-color) 0%, #FDD251 100%);
+  --input-text: #6C6C6C;
+
+}
+html {
+  font-size: var(--font);
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }

@@ -1,0 +1,7 @@
+.register {
+  height: 100vh;
+  background-image: var(--auth-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

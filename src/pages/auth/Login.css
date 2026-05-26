@@ -1,0 +1,37 @@
+.login {
+  height: 100vh;
+  background-image: var(--auth-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    label {
+      color: var(--input-text);
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+      font-size: 1.4rem;
+    }
+    input {
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      background: #ffffff;
+      padding: 14px;
+      &::placeholder {
+        color: #cdcdcd;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 1.2rem;
+      }
+    }
+  }
+} */

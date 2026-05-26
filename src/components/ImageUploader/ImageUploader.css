@@ -1,0 +1,43 @@
+.upload-container {
+  cursor: pointer;
+  width: 100%;
+    flex-grow: 1;
+}
+
+.upload-area {
+  width: 100%;
+  height: 100%; /* Adjust height as needed */
+  border: 2px dashed #e0e0e0; /* Light gray dashed border */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.upload-area:hover {
+  border-color: #ffb800; /* Your brand yellow on hover */
+  background-color: #fffbf0;
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #888;
+}
+
+.upload-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

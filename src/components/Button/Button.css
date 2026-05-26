@@ -1,0 +1,16 @@
+button{
+background: #FEAF00;
+    width:100%;
+    border-radius: 4px;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    p{
+        text-align: center;
+        text-transform:uppercase;
+    }
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
+}

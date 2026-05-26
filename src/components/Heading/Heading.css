@@ -1,0 +1,12 @@
+.heading {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 60px;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    font-size: 35px;
+  }
+}

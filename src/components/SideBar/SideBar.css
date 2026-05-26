@@ -1,0 +1,42 @@
+.sidebar {
+  padding: 3.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  background-color: #f2eae1;
+  height: 100dvh;
+}
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-container {
+  margin-bottom: 5.4rem;
+  padding: 0 1.2rem;
+  border-left: 8px solid #f8d442;
+}
+.user-account {
+  .profile {
+    width: 15rem;
+    height: 21rem;
+    img {
+      clip-path: circle();
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  p {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+@media (max-width:1400px){
+  .sidebar {
+ display: none;
+}
+}

@@ -1,0 +1,27 @@
+.image-container {
+  display: flex;
+  margin:4rem 0;
+  img{
+    width:37.3rem;
+    margin:auto;
+  }
+}
+.product-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  p {
+    font-weight: 600;
+    font-size: 60px;
+    flex-basis: 50%;
+
+    span {
+      font-weight: 500;
+      font-size: 40px;
+
+      color: #8080808c;
+    }
+  }
+}

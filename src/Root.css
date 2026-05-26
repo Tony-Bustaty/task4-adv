@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  grid-template-columns: 27.3rem 1fr;
+}
+.outlet {
+  padding: 64px;
+  position: relative;
+}
+@media (max-width: 1400px) {
+    .outlet {
+ padding:0;
+}
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+

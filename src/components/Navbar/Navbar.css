@@ -1,0 +1,25 @@
+.links {
+  list-style-type: none;
+  .link {
+    padding: 5px 2rem;
+    cursor: pointer;
+    a{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:#000;
+    }
+    a:active{
+      outline:0;
+    }
+    &.active {
+      background-color: #feaf00;
+    }
+    p {
+      font-family: "Montserrat";
+      font-size: 14px;
+    }
+  }
+}
